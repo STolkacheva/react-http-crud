@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+}
+.note {
+  display: flex;
+  flex-flow: row;
+  justify-content: left;
+}
+.note_input {
+  display: flex;
+  flex-flow: column;
+  margin-right: 10px;
+  align-items: start;
+}
+.note_title {
+  font-size: 14px;
+  margin: 10px;
+}
+.note_value {
+  box-sizing: border-box;
+  height: 100px;
+  width: 200px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  color: rgb(83, 91, 105);
+  padding: 10px;
+}
+.add_btn {
+  margin-top: auto;
+  border: 0px;
+  background: white;
+}
+.update {
+  display: flex;
+  margin-bottom: 20px;
+}
+.update_title {
+  font-size: 24px;
+}
+.update_btn {
+  border: 0px;
+  background: white;
+}
+
+.node_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.node_item {
+  display: flex;
+  flex-flow: row;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.item_value {
+  box-sizing: border-box;
+  height: 100px;
+  width: 200px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  color: rgb(83, 91, 105);
+  padding: 10px;
+}
+.remove_btn {
+  margin-top: auto;
+  border: 0px;
+  background: white;
+}
